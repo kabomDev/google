@@ -1,0 +1,152 @@
+/*====corps de page====*/
+
+body{
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*====menu de navigation====*/
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none; 
+}
+
+li{
+  padding: 10px;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  color: #4d4d4d;
+  font-size: 13px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#app{
+  padding-top: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button{
+  margin: 0 10px;
+  font-size: 13px
+}
+
+#connexion{
+  background-color: dodgerblue;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+.grey{
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  color: grey;
+  border: none;  
+}
+
+.grey:hover{
+  border: 1px solid grey;
+}
+
+/*====centre de la page====*/
+
+.content{
+  margin-top: 150px;
+  padding: 150px 0;
+  margin: auto;
+  text-align: center;
+  height : auto;
+}
+
+.caseInput{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+#vocal{
+  position: relative;
+  right: 30px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+#vocal:hover{
+  
+}
+
+input[type=text]{
+  width: 450px;
+  height: 40px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 40px;
+  border: 1px solid #E3E3E3;
+}
+
+input[type=text]:hover{
+  box-shadow: 1px 1px 6px;
+  opacity: 0.2;
+}
+
+input[type=text]:focus{
+  outline: none;
+}
+
+/*====bas de page====*/
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.france{
+  background-color: #F2F2F2;
+  color: #4d4d4d;
+  padding: 12px 40px;
+  border-top: 1px solid #DDE0E3;
+  font-size: 14px;
+}
+
+.list{
+  background-color: #F2F2F2;
+  padding: 12px 30px;
+  border-top: 1px solid #DDE0E3;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.list  a{
+  margin: 0 10px;
+}
+
+.right, .left{
+  display: inline-flex;
+}
+
